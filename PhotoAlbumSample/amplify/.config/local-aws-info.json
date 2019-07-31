@@ -1,0 +1,12 @@
+{
+    "chang": {
+        "configLevel": "project",
+        "useProfile": true,
+        "profileName": "default"
+    },
+    "foo": {
+        "configLevel": "project",
+        "useProfile": true,
+        "profileName": "default"
+    }
+}

@@ -292,6 +292,8 @@ public class StorageUITest {
             textView2.check(doesNotExist());
             Log.e(TAG, "An album is deleted successfully!");
 
+            UIActionsUtil.clickSignOut();
+
             UIActionsUtil.signOut();
 
             // Check if user successfully signed out

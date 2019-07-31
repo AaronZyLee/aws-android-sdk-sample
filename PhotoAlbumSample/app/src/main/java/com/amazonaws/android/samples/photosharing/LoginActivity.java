@@ -95,9 +95,9 @@ public class LoginActivity extends AppCompatActivity {
             public void onError(Exception e) {
                 Log.e(TAG, "onError: ", e);
                 new AlertDialog.Builder(LoginActivity.this)
-                            .setTitle("LoginError")
-                            .setMessage("Error logging in. ")
-                            .show();
+                        .setTitle("LoginError")
+                        .setMessage("Error logging in. ")
+                        .show();
             }
         });
     }
@@ -144,9 +144,9 @@ public class LoginActivity extends AppCompatActivity {
                     public void onError(Exception e) {
                         Log.e(TAG, "onError: ", e);
                         new AlertDialog.Builder(LoginActivity.this)
-                                    .setTitle("LoginError")
-                                    .setMessage("Error logging in. ")
-                                    .show();
+                                .setTitle("LoginError")
+                                .setMessage("Error logging in. ")
+                                .show();
                     }
                 }
         );

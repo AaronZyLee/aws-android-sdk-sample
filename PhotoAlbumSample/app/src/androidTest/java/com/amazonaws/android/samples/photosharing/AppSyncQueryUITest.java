@@ -204,28 +204,42 @@ public class AppSyncQueryUITest {
                         isDisplayed()));
         textView.check(matches(withText("TestAppSync")));
         Log.e(TAG, "List query succeed.");
+
+        UIActionsUtil.clickEdit();
+
+        // Delete an album
+        ViewInteraction appCompatButton2 = onView(
+                allOf(withId(R.id.delete_album),
+                        childAtPosition(
+                                withParent(withId(R.id.gw_lstAlbum)),
+                                1),
+                        isDisplayed()));
+        Log.e(TAG, "Click delete button.");
+        appCompatButton2.perform(click());
+
+        // assert the album has been deleted successfully
+        timeOut = 0;
+        while (timeOut < MAX_TIME_OUT) {
+            try {
+                ViewInteraction textView2 = onView(
+                        allOf(withId(R.id.album_name), withText("TestAppSync")));
+                textView2.check(doesNotExist());
+                Log.e(TAG, "An album is deleted successfully!");
+                break;
+            } catch (NoMatchingViewException e) {
+
+            }
+            Thread.sleep(5000);
+            timeOut += 5000;
+        }
+
+        UIActionsUtil.clickSignOut();
     }
 
     @After
     public void tearDown() {
         try {
-            // Delete an album
-            ViewInteraction appCompatButton2 = onView(
-                    allOf(withId(R.id.delete_album),
-                            childAtPosition(
-                                    withParent(withId(R.id.gw_lstAlbum)),
-                                    1),
-                            isDisplayed()));
-            Log.e(TAG, "Click delete button.");
-            appCompatButton2.perform(click());
 
-            // assert the album has been deleted successfully
-            ViewInteraction textView2 = onView(
-                    allOf(withId(R.id.album_name), withText("TestAppSync")));
-            textView2.check(doesNotExist());
-            Log.e(TAG, "An album is deleted successfully!");
-
-            UIActionsUtil.clickSignOut();
             UIActionsUtil.signOut();
             // Check if user successfully signed out
             assertEquals(AWSMobileClient.getInstance().currentUserState().getUserState().toString(), "SIGNED_OUT");
@@ -241,7 +255,6 @@ public class AppSyncQueryUITest {
                 } catch (NoMatchingViewException e) {
 
                 }
-
                 Thread.sleep(5000);
                 timeOut += 5000;
             }

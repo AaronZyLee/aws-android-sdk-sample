@@ -1,0 +1,36 @@
+{
+    "chang": {
+        "awscloudformation": {
+            "AuthRoleName": "sampleapp-chang-20190605114538-authRole",
+            "UnauthRoleArn": "arn:aws:iam::712985920941:role/sampleapp-chang-20190605114538-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::712985920941:role/sampleapp-chang-20190605114538-authRole",
+            "Region": "us-west-2",
+            "DeploymentBucketName": "sampleapp-chang-20190605114538-deployment",
+            "UnauthRoleName": "sampleapp-chang-20190605114538-unauthRole",
+            "StackName": "sampleapp-chang-20190605114538",
+            "StackId": "arn:aws:cloudformation:us-west-2:712985920941:stack/sampleapp-chang-20190605114538/1ca1c600-87c2-11e9-92f9-061dee6f5b3e"
+        },
+        "categories": {
+            "auth": {
+                "sampleappdea1dcdb": {}
+            }
+        }
+    },
+    "foo": {
+        "awscloudformation": {
+            "AuthRoleName": "sampleapp-foo-20190726150454-authRole",
+            "UnauthRoleArn": "arn:aws:iam::712985920941:role/sampleapp-foo-20190726150454-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::712985920941:role/sampleapp-foo-20190726150454-authRole",
+            "Region": "us-west-2",
+            "DeploymentBucketName": "sampleapp-foo-20190726150454-deployment",
+            "UnauthRoleName": "sampleapp-foo-20190726150454-unauthRole",
+            "StackName": "sampleapp-foo-20190726150454",
+            "StackId": "arn:aws:cloudformation:us-west-2:712985920941:stack/sampleapp-foo-20190726150454/65d5cb80-aff1-11e9-b0cf-0630890b2eee"
+        },
+        "categories": {
+            "auth": {
+                "sampleappdea1dcdb": {}
+            }
+        }
+    }
+}

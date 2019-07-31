@@ -1,0 +1,14 @@
+{
+	"auth": {
+		"sampleappdea1dcdb": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation"
+		}
+	},
+	"storage": {
+		"task": {
+			"service": "S3",
+			"providerPlugin": "awscloudformation"
+		}
+	}
+}
