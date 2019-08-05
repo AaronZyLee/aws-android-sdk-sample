@@ -2,50 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="485208f8-1bcc-46c3-a57a-bba7c2b16611" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/CircleciScripts.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/add_local_dependency_app_build_gradle.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build_and_uitest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bump_appsync_version.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bump_sdk_version.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cleanup_uitests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/configure_aws_resources.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fetch_sources_and_build_artifacts.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run_build_and_uitest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run_cleanup_uitests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run_configure_aws_resources.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run_setup_pods.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/setup_local_maven.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_names.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uitests_exceptions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utility_functions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PhotoAlbumSample/.gradle/5.1.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PhotoAlbumSample/.gradle/5.1.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PhotoAlbumSample/.gradle/5.1.1/fileChanges/last-build.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PhotoAlbumSample/.gradle/5.1.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PhotoAlbumSample/.gradle/5.1.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PhotoAlbumSample/.gradle/5.1.1/gc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PhotoAlbumSample/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PhotoAlbumSample/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PhotoAlbumSample/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PhotoAlbumSample/.gradle/vcs-1/gc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PhotoAlbumSample/.idea/caches/build_file_checksums.ser" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PhotoAlbumSample/.idea/caches/gradle_models.ser" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PhotoAlbumSample/.idea/libraries/Gradle__com_amazonaws_aws_android_sdk_appsync_2_9_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PhotoAlbumSample/.idea/libraries/Gradle__com_amazonaws_aws_android_sdk_auth_core_2_13_7_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PhotoAlbumSample/.idea/libraries/Gradle__com_amazonaws_aws_android_sdk_auth_ui_2_13_7_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PhotoAlbumSample/.idea/libraries/Gradle__com_amazonaws_aws_android_sdk_auth_userpools_2_13_7_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PhotoAlbumSample/.idea/libraries/Gradle__com_amazonaws_aws_android_sdk_mobile_client_2_13_7_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PhotoAlbumSample/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PhotoAlbumSample/PhotoAlbumSample.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PhotoAlbumSample/simple_model.graphql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/end_to_end_tests_workflow.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run_end_to_end_test.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PhotoAlbumSample/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../PhotoAlbumSample/app/app.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PhotoAlbumSample/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../PhotoAlbumSample/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PhotoAlbumSample/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PhotoAlbumSample/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -55,9 +12,18 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test_names.json">
           <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/configure_aws_resources.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-256">
+              <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -112,10 +78,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="11" />
     <option name="y" value="23" />
-    <option name="width" value="1429" />
-    <option name="height" value="798" />
+    <option name="width" value="1440" />
+    <option name="height" value="814" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -125,6 +90,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -136,7 +102,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -219,7 +184,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="822" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="814" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14517266" />
@@ -282,16 +247,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/configure_aws_resources.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#40#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -374,6 +329,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test_names.json">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/configure_aws_resources.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-256">
+          <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>

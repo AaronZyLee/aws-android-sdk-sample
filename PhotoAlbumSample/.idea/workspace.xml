@@ -131,6 +131,8 @@
     <list default="true" id="fb4534a7-d57e-4c2f-87cc-37ed661139f8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../CircleciScripts/end_to_end_tests_workflow.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../CircleciScripts/run_end_to_end_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -198,7 +200,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="812" />
@@ -623,6 +625,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="812" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Captures" order="0" sideWeight="0.50363195" side_tool="true" weight="0.3298969" />
       <window_info content_ui="combo" id="Project" order="1" sideWeight="0.49878934" visible="true" weight="0.32474965" />
