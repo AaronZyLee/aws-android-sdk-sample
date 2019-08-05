@@ -31,7 +31,7 @@ def add_local_dependency_app_build_gradle(app_root_directory,
                 if branches_to_uitest['default'] != 'master':
                     line = re.sub(re.compile(r"^\s*def\s+aws_version\s*=\s*\".+\""), "  def aws_version = '{0}'  ".format(newsdkversion), line)
                 if branches_to_uitest['appsync'] != 'master':
-                    line = re.sub(re.compile(r"^\s*def\s+aws_appsync_version\s*=\s*\".+\""), "  def aws_version = '{0}-SNAPSHOT'  ".format(newsdkversion), line)
+                    line = re.sub(re.compile(r"^\s*def\s+aws_appsync_version\s*=\s*\".+\""), "  def aws_appsync_version = '{0}-SNAPSHOT'  ".format(newsdkversion), line)
                 new_file.write(line)
 
     # Remove original file
