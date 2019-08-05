@@ -56,7 +56,7 @@ def configure_aws_resources(app_repo_root_directory, appname):
         raise OSErrorConfigureResources(appname, [str(err)])
 
     print("step: 3/3... config resources \n ")
-    configure_command = "npm run config {0} ios {1}".format(app_root_directory, " ".join(cli_resources))
+    configure_command = "npm run config {0} android {1}".format(app_root_directory, " ".join(cli_resources))
 
     runcommand(command = configure_command,
                exception_to_raise = CliConfigException(appname))
