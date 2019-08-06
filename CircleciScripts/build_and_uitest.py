@@ -1,3 +1,8 @@
+"""
+author: Chang Xu
+owner: com.amazonaws
+"""
+
 from utility_functions import runcommand
 from uitests_exceptions import *
 import os
@@ -9,11 +14,10 @@ def get_test_names_from_json(test_names_json_file):
     with open(test_names_json_file) as json_file:
         test_names = json.load(json_file)
         ui_test_names = []
-        for test_name in test_names["tests"]:
-            ui_test_names.append(test_name["auth"])
-            ui_test_names.append(test_name["api_1"])
-            ui_test_names.append(test_name["api_2"])
-            ui_test_names.append(test_name["storage"])
+        for category in test_names["tests"]:
+            for test_name in category.keys():
+                for test in category[test_name]:
+                  ui_test_names.append(test)
     return ui_test_names
 
 def build_and_uitest(circleci_root_directory, app_name, app_repo_root_directory):
@@ -39,7 +43,7 @@ def build_and_uitest(circleci_root_directory, app_name, app_repo_root_directory)
 
     # build and run ui test
     print('Run UI Tests...')
-    ui_tests = get_test_names_from_json("{0}/CircleCIScripts/test_names.json".format(app_repo_root_directory))
+    ui_tests = get_test_names_from_json("{0}/CircleciScripts/test_names.json".format(app_repo_root_directory))
     for ui_test in ui_tests:
         run_uitest(ui_test = ui_test, app_name = app_name)
         store_uitest_results(ui_test = ui_test,
