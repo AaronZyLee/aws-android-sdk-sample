@@ -41,7 +41,7 @@ def configure_aws_resources(app_repo_root_directory, appname):
         raise OSErrorConfigureResources(appname, [str(err)])
 
     print("step: 2/3... Run setup-dev \n ")
-    runcommand(command = "npm run setup-dev",
+    runcommand(command = "sudo npm run setup-dev",
                exception_to_raise = CliSetupDevException(appname))
 
     ## todo: change to take custom schema
@@ -56,7 +56,7 @@ def configure_aws_resources(app_repo_root_directory, appname):
         raise OSErrorConfigureResources(appname, [str(err)])
 
     print("step: 3/3... config resources \n ")
-    configure_command = "npm run config {0} android {1}".format(app_root_directory, " ".join(cli_resources))
+    configure_command = "sudo npm run config {0} android {1}".format(app_root_directory, " ".join(cli_resources))
 
     runcommand(command = configure_command,
                exception_to_raise = CliConfigException(appname))
