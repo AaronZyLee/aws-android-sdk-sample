@@ -46,8 +46,8 @@ import static org.hamcrest.Matchers.is;
 
 public class UIActionsUtil {
 
-    private static final String username = "chang";
-    private static final String password = "Xuchang2018";
+    private static final String username = "test01";
+    private static final String password = "The#test1";
     private static final int MAX_TIME_OUT = 60 * 1000;
     private static final String TAG = UIActionsUtil.class.getSimpleName();
 
