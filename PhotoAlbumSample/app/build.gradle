@@ -37,10 +37,6 @@ repositories {
     maven {
         url ("####LOCAL_REPO_PATH####")
     }
-
-    maven {
-        url ("file://Users/edupp/Desktop/maven_local")
-    }
     mavenLocal()
     mavenCentral()
 }
