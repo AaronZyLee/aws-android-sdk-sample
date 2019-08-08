@@ -3,6 +3,7 @@
 		{
 			"auth" : ["AuthUITest"],
 			"api" : ["AppSyncMutationUITest", "AppSyncQueryUITest"],
+			"storage" : ["StorageUITest"]
 		}
 	]
 }
